@@ -5,10 +5,8 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div className="App">
-      <div>
-        {t('welcome')}
-      </div>
+    <div className="font-sans">
+      {t('welcome')}
     </div>
   );
 }
