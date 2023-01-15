@@ -8,3 +8,4 @@
 - Eslint
 - i18n
 - Tailwind CSS
+- Husky
