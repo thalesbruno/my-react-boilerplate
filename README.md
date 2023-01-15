@@ -7,3 +7,4 @@
 - React router
 - Eslint
 - i18n
+- Tailwind CSS
