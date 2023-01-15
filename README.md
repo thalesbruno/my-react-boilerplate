@@ -6,3 +6,4 @@
 - Import alias
 - React router
 - Eslint
+- i18n
