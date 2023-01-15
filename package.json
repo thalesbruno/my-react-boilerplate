@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "yarn run lint && tsc && vite build",
     "preview": "vite preview",
-    "lint": "node_modules/eslint/bin/eslint.js src"
+    "lint": "eslint src",
+    "prepare": "husky install"
   },
   "dependencies": {
     "i18next": "^22.4.9",
@@ -27,6 +28,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
     "eslint-plugin-react": "^7.32.0",
+    "husky": "^8.0.3",
     "path": "^0.12.7",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
